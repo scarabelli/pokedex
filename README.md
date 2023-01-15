@@ -1,2 +1,5 @@
-# pokedex
-Desenvolvimento de layout pokedex ; Desenvolvimento: HTML CSS JavaScript
+# Pokedex
+Desenvolvimento de layout Pokedex;
+- HTML 
+- CSS 
+- JavaScript
