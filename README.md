@@ -4,4 +4,3 @@ Desenvolvimento de layout Pokedex;
 - CSS 
 - JavaScript
 Link: https://scarabelli.github.io/pokedex/
-
