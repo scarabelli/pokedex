@@ -19,14 +19,7 @@ function pokemonToHtml(pokemon) {
 }
 const pokemonList = document.getElementById('pokeList')
 
-
-fetch(url)
-    .then((response) => response.json())
-    .then((jsonBody) => jsonBody.results)
-    .then((pokemons) => {
-       for (let i = 0; i < pokemons.length; i++) {
-        const pokemon = pokemons[i];
-        pokemonList.innerHTML += pokemonToHtml(pokemon)
-       }
-    })
-    .catch((error) => console.log(error))
+pokeapi.getPokemons().then((pokemons = []) => {
+    pokemonList.innerHTML += pokemons.map(pokemonToHtml).join('');
+})
+    
